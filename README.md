@@ -23,3 +23,6 @@ For QR CODE SCANNER:
 2: You can now vote as soon as the user is authenticated
 
 
+Screenshots
+
+![Screen Shot 2019-11-06 at 17 14 07](https://user-images.githubusercontent.com/43087414/68308625-49897280-00d5-11ea-8f41-7c6fda7bd6ea.png)
