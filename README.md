@@ -23,7 +23,16 @@ Voting System based on Ethereum Blockchain using Truffle Framework and UserAuthe
 - Reload the browser
 
 ### For QR CODE SCANNER:
-- Open Your Mobile App and scan for the qr code which contains the valid private key of the authenticated user
+
+- Go to directory 'User Authentication Cross Platform Mobile Application'
+- `npm install expo-cli --global`
+- `npm install`
+- `expo start -c`
+- Either run on an emulator or install expo app on your phone and scan the QR code to open the app on your phone
+- Add ganache provided id keys on election.json file (Only the accounts with these keys are authorized to vote)
+- Open any online QR code generator, embed one of these keys and create a QR code. Also for testing purpose, create another QR code with     any text except the key
+- Open the app and scan these QR codes one by one
+- Authentication succeeds or fails depending upon the validity of key in the QR code
 - You can now vote as soon as the user is authenticated
 
 
