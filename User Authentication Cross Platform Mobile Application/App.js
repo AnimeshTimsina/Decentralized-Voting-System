@@ -1,18 +1,10 @@
 import React from 'react';
 import { StyleSheet, Text, View, Button, Platform, TouchableOpacity, Image,TouchableHighlight, ListView } from 'react-native';
-import { BarCodeScanner, Permissions } from 'expo';
+import { BarCodeScanner, Permissions } from 'expo-barcode-scanner';
 import { createStackNavigator, createAppContainer} from "react-navigation";
 import voterData from "./Election.json"
 
 
-//
-// class TestScreen extends React.Component {
-//   render() {
-//     return (
-//       <View style={{flex:1,flexDirection:'column',alignItems:'center',justifyContent: 'center',}}
-//     )
-//   }
-// }
 
 class Start extends React.Component {
   static navigationOptions = { header: null };
@@ -153,7 +145,7 @@ componentDidMount(){
 const AppNavigator = createStackNavigator(
 
   {
-     Home: {screen: NotAuthenticated},
+     Home: {screen: Start},
      Scan: {screen: BarcodeScannerExample},
      NotAuth: {screen:NotAuthenticated},
      Auth: {screen : Authenticated},
@@ -237,7 +229,7 @@ marginTop: '10%',
 textAlign: 'center',
 width: '70%',
 color: 'white',
-fontFamily: 'sans-serif-condensed',
+fontFamily: 'Helvetica',
 },
   loginButton: {
     backgroundColor: "#3498db",
