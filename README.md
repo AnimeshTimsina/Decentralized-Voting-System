@@ -25,4 +25,8 @@ For QR CODE SCANNER:
 
 Screenshots
 
-![Screen Shot 2019-11-06 at 17 14 07](https://user-images.githubusercontent.com/43087414/68308625-49897280-00d5-11ea-8f41-7c6fda7bd6ea.png)
+
+![Screen Shot 2019-11-06 at 21 24 41](https://user-images.githubusercontent.com/43087414/68314005-97a27400-00dd-11ea-876c-dcbfeb08d84e.png)
+![Screen Shot 2019-11-06 at 21 25 11](https://user-images.githubusercontent.com/43087414/68314010-9a04ce00-00dd-11ea-950a-21c843562662.png)
+![Screen Shot 2019-11-06 at 21 25 52](https://user-images.githubusercontent.com/43087414/68314016-9b35fb00-00dd-11ea-8717-9ca1d33ebc35.png)
+![Screen Shot 2019-11-06 at 21 27 51](https://user-images.githubusercontent.com/43087414/68314027-9f621880-00dd-11ea-9c09-5bebd62b6025.png)
